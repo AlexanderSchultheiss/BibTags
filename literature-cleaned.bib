@@ -72,6 +72,13 @@ keywords = {empirical evaluation, software product lines, benchmarks, experiment
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2021 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@article{LSBG:JSS21,
+	author = {Lukas Linsbauer and Felix Schw{\"{a}}gerl and Thorsten Berger and Paul Gr{\"{u}}nbacher},
+	title = {{Concepts of Variation Control Systems}},
+	journal = JSS,
+	volume = {171},
+	year = 2021,
+}
 
 @article{BBA+:SoSyM21,
   title={{Characteristics, potentials, and limitations of open-source Simulink projects for empirical research}},
@@ -491,7 +498,7 @@ title = {{Incremental Feature Model Synthesis for Clone-and-Own Software Systems
 year = {2020},
 publisher = ACM,
 abstract = {Families of related MATLAB/Simulink systems commonly emerge ad hoc using clone-and-own practices. Extractively migrating systems towards a software product line (SPL) can be a remedy. A feature model (FM) represents all potential configurations of an SPL, ideally, in non-technical domain terms. However, yielding a sensible FM from automated synthesis remains a major challenge due to domain knowledge being a prerequisite for features to be adequate abstractions. In incremental reverse engineering, subsequent generation of FMs may further overwrite changes and design decisions made during previous manual FM refinement.In this paper, we propose an approach to largely automate the synthesis of a suitable FM from a set of cloned MATLAB/Simulink models as part of reverse engineering an SPL. We fully automate the extraction of an initial, i.e., a technical, FM that closely aligns with realization artifacts and their variability, and further provide operations to manually refine it to incorporate domain knowledge. Most importantly, we provide concepts to capture such operations and to replay them on a structurally different technical FM stemming from a subsequent reverse engineering increment that included further systems of the portfolio. We further provide an implementation and demonstrate the feasibility of our approach using two MATLAB/Simulink data sets from the automotive domain.},
-booktitle = SPLC20,
+booktitle = SPLC,
 articleno = {7},
 numpages = {12},
 keywords = {mapping, incremental, refinement, 150% model, synthesis, variability, MATLAB/Simulink, clone-and-own, feature model, individual},
@@ -946,6 +953,27 @@ series = {SPLC '20}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2019 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{SW:SoSyM19,
+	author = {Felix Schw{\"{a}}gerl and Bernhard Westfechtel},
+	title = {{Integrated Revision and Variation Control for Evolving Model-Driven Software Product Lines}},
+	journal = SoSyM,
+	volume = {18},
+	number = {6},
+	pages = {3373--3420},
+	year = 2019,
+}
+
+@inproceedings{WAM:19,
+ author = {Wolfart, Daniele and Assunção, Wesley and Martinez, Jabier},
+ title = {Open Source Software on the Research of Extractive Adoption of Software Product Lines},
+ booktitle = {Anais do XVI Congresso Latino-Americano de Software Livre e Tecnologias Abertas},
+ year = {2019},
+ keywords = {},
+ pages = {142--145},
+ publisher = {SBC},
+}
+
 
 @inproceedings{SMK+:SPLC19,
 	author = {Str\"{u}ber, Daniel and Mukelabai, Mukelabai and Kr\"{u}ger, Jacob and Fischer, Stefan and Linsbauer, Lukas and Martinez, Jabier and Berger, Thorsten},
@@ -5066,6 +5094,17 @@ series = {ESEM '16}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2014 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@inproceedings{WO:GPCE14,
+	author = {Walkingshaw, Eric and Ostermann, Klaus},
+	title = {{Projectional Editing of Variational Software}},
+	year = 2014,
+	booktitle = GPCE,
+	publisher = ACM,
+	pages = {29--38},
+	numpages = {10},
+	keywords = {bidirectional transformations, projectional editing, software product lines, view-update problem, variation},
+}
+
 @article{Wenzel:SoSyM14,
   title = {{Unique identification of elements in evolving software models}},
   author = {Wenzel, Sven},
@@ -6334,7 +6373,7 @@ series = {ESEM '16}
 }
 
 @inproceedings{XXJ:ICSE13,
-	title = {{A large scale linux-kernel based benchmark for feature location research}},
+	title = {{A Large Scale Linux-Kernel Based Benchmark for Feature Location Research}},
 	author = {Xing, Zhenchang and Xue, Yinxing and Jarzabek, Stan},
 	booktitle = ICSE,
 	pages = {1311--1314},
